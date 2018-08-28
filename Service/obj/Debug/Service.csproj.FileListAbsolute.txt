@@ -1,0 +1,15 @@
+E:\users\tanz01\DesignPattern\DapperMvc\Service\bin\Debug\Service.dll
+E:\users\tanz01\DesignPattern\DapperMvc\Service\bin\Debug\Service.pdb
+E:\users\tanz01\DesignPattern\DapperMvc\Service\bin\Debug\CommonTool.dll
+E:\users\tanz01\DesignPattern\DapperMvc\Service\bin\Debug\Domain.dll
+E:\users\tanz01\DesignPattern\DapperMvc\Service\bin\Debug\IService.dll
+E:\users\tanz01\DesignPattern\DapperMvc\Service\bin\Debug\Dapper.dll
+E:\users\tanz01\DesignPattern\DapperMvc\Service\bin\Debug\CommonTool.pdb
+E:\users\tanz01\DesignPattern\DapperMvc\Service\bin\Debug\Domain.pdb
+E:\users\tanz01\DesignPattern\DapperMvc\Service\bin\Debug\IService.pdb
+E:\users\tanz01\DesignPattern\DapperMvc\Service\bin\Debug\Dapper.xml
+E:\users\tanz01\DesignPattern\DapperMvc\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\users\tanz01\DesignPattern\DapperMvc\Service\obj\Debug\Service.dll
+E:\users\tanz01\DesignPattern\DapperMvc\Service\obj\Debug\Service.pdb
+E:\users\tanz01\DesignPattern\DapperMvc\Service\bin\Debug\BaseEnvironment.dll
+E:\users\tanz01\DesignPattern\DapperMvc\Service\bin\Debug\BaseEnvironment.pdb

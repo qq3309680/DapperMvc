@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TableDataPage</title>
+    <link href="~/Contents/LigerUI/lib/ligerUI/skins/Aqua/css/ligerui-all.css" rel="stylesheet" />
+    <link href="~/Contents/LigerUI/lib/ligerUI/skins/ligerui-icons.css" rel="stylesheet" />
+    <script src="~/Contents/LigerUI/lib/jquery/jquery-1.9.0.min.js"></script>
+    <script src="~/Contents/LigerUI/lib/ligerUI/js/ligerui.all.js"></script>
+    <script src="~/Contents/underscore.js"></script>
+    <script src="~/Contents/ExtentScript.js?v=1.8"></script>
+    <script>
+        $(function () {
+            var dialog = frameElement.dialog;
+            var Grid = $.CreateT2PageGrid("T2-Grid", $.GetT2GridColumns(dialog.get("myData").TableListObjectId), "/Admin/GetT2GridPageData", { "TableListObjectId": dialog.get("myData").TableListObjectId });
+            $(document).on("click", "#reloadBtn", function () {
+                Grid.reload();
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="T2-Grid">
+    </div>
+    <div id="reloadBtn" class="liger-button" style="display: none"></div>
+</body>
+</html>
